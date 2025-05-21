@@ -1,5 +1,5 @@
 # STEP 1: Base Image - REPLACE with RunPod recommended PyTorch image if available
-FROM nvcr.io/nvidia/pytorch:23.10-py3
+FROM runpod/pytorch:2.1.0-py3.10-cuda11.8.0-devel-ubuntu22.04
 
 # STEP 2: Set Environment Variables (Optional but good practice)
 ENV PYTHONUNBUFFERED=1 \
